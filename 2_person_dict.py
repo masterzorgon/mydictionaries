@@ -24,7 +24,9 @@ print(person["pets"]["cat"]) # sox
 
 # use a loop to print out the names of each child
 
-
+for child in person["children"]:
+    print(f"{child}")
 
 # use a loop to print out the pets in the following format:
 # The type of pet is: dog and the name of the pet is: Fido
+
