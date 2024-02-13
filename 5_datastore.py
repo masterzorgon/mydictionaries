@@ -47,3 +47,9 @@ datastore = { "medical":[
 
       ]
 }
+
+with open("retail_space.csv", "w") as file: 
+  file.write("room-number,use,sq-ft,price\n")
+  for space in datastore["medical"]:
+      row = f"{space["room-number"]},{space["use"]},{space["sq-ft"]},{space["price"]}"
+      file.write(row + "\n")
