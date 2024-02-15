@@ -2,7 +2,6 @@
 # a doctor's office. Using the dictionary, create a csv file that has details
 # for each space represented as rows. Name your file 'retail_space.csv.
 
-
 '''
 Your final output should look like:
 
@@ -12,11 +11,7 @@ room-number,use,sq-ft,price
 102,examination,125,150
 103,examination,125,150
 104,office,150,100
-
 '''
-
-
-
 
 datastore = { "medical":[
       { "room-number": 100,
